@@ -27,7 +27,7 @@ def webhook():
 
 #Conectando a aplicação a base de dados no MongoDB
 def ConfigureDatabase():
-    client = MongoClient("mongodb+srv://user:Sua Permissão Aqui")
+    client = MongoClient("mongodb+srv://Seu Cliente")
     return client.get_database('Nome do Banco de Dados')
  
 # Processando as requests do Dialogflow
